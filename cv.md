@@ -8,3 +8,20 @@
 ------
 ##**About Me**
 I do like everything concerning coding and new technologies
+------
+##**Skills**
+* HTML
+* CSS
+* GIT
+* UNIX
+* SQL
+* API
+------
+##**Code Examples**
+
+------
+##**Experience**
+
+------
+##**English**
+**B2**

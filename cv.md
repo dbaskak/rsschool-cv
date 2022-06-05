@@ -1,15 +1,15 @@
 
-#**Dmitriy Baskakov**
+# **Dmitriy Baskakov**
 ------
-##**Contacts:**
+## **Contacts:**
 * Cell: +380990283506
 * E-mail: dbaskak@gmail.com
 * Github: dbaskak
 ------
-##**About Me**
+## **About Me**
 I do like everything concerning coding and new technologies
 ------
-##**Skills**
+## **Skills**
 * HTML
 * CSS
 * GIT
@@ -17,11 +17,11 @@ I do like everything concerning coding and new technologies
 * SQL
 * API
 ------
-##**Code Examples**
+## **Code Examples**
 
 ------
-##**Experience**
+## **Experience**
 
 ------
-##**English**
+## **English**
 **B2**

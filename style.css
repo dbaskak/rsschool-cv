@@ -8,7 +8,7 @@
     --date-color: #a8a8a8;
     --text-orange: #fb6d3a;
     --bkg-code: #fdfdfd;
-    --bkg-sidebar: #1e2939;
+    --text-mail: #8e949c;
 }
 body {
     font-family: var(--main-font);
@@ -39,12 +39,15 @@ picture {
     /* margin: 40px 40px 40px 40px; */
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
+.text {
+    color: var(--bkg-all);
+}
 .main {
     padding: 10px;
 }
 .sidebar {
     background-color: var(--bkg-sidebar);
-    width: 230px;
+    width: 730px;
     /* padding: 40px 0; */
 }
 .profession{
@@ -163,11 +166,38 @@ color: var(--text-orange);
     border-radius: 1%;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
-.sidebar {
-    background: var(--bkg-sidebar);
-    width: 730px;
-    /* padding: 40px 0; */
-}
 .picture {
     max-width: 310px;
+}
+.contacts,
+.techskills,
+.softskills,
+.picture {
+    margin: 50px 0 0 40px;
+}
+.sbcontacts,
+.sbtech,
+.sbsoft {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--bkg-all);
+    margin-bottom: 10px;
+}
+.tel,
+.mail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-mail);
+}
+.skills-list {
+    padding: 0;
+    padding-left: 15px;
+}
+.skill {
+    color: var(--text-orange);
+;
 }

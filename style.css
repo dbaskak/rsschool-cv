@@ -1,0 +1,43 @@
+:root{
+    --main-font: font-family: "Montserrat", sans-serif;
+    --bkg-color: #f5f7fa;
+    --bkg-all: #fff;
+    --bkg-sidebar: #1e2939;
+}
+body {
+    font-family: var(--main-font);
+    background-color: var(--bkg-color);
+}
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+picture {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.all {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    background-color: var(--bkg-all);
+    /* margin: 40px 40px 40px 40px; */
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.main {
+    padding: 10px;
+}
+.sidebar {
+    background-color: var(--bkg-sidebar);
+    width: 230px;
+    /* padding: 40px 0; */
+}

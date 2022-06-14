@@ -21,6 +21,9 @@ p {
     margin: 0;
     padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 img {
     display: block;
     max-width: 100%;
@@ -34,9 +37,7 @@ picture {
 .all {
     display: flex;
     flex-direction: row-reverse;
-    max-width: 100%;
     background-color: var(--bkg-all);
-    /* margin: 40px 40px 40px 40px; */
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .text {
@@ -47,8 +48,8 @@ picture {
 }
 .sidebar {
     background-color: var(--bkg-sidebar);
-    width: 730px;
-    /* padding: 40px 0; */
+    min-width: 30%;
+    padding: 40px 0;
 }
 .profession{
 font-style: normal;
@@ -167,17 +168,17 @@ color: var(--text-orange);
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .picture {
-    max-width: 310px;
+    max-width: 90%;
 }
 .contacts,
 .techskills,
-.softskills,
-.picture {
+.softskills {
     margin: 50px 0 0 40px;
 }
 .sbcontacts,
 .sbtech,
-.sbsoft {
+.sbsoft,
+.footer {
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -196,8 +197,32 @@ color: var(--text-orange);
 .skills-list {
     padding: 0;
     padding-left: 15px;
+    line-height: 50px;
 }
 .skill {
     color: var(--text-orange);
 ;
+}
+.footer,
+.header {
+    color: var(--text-mail);
+    background-color: var(--bkg-sidebar);
+    text-align: center;
+    padding: 5px;
+}
+.nav-list {
+    display: flex;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--text-mail);
+
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-list{
+    list-style: none;
 }

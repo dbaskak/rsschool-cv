@@ -3,6 +3,10 @@
     --bkg-color: #f5f7fa;
     --bkg-all: #fff;
     --bkg-sidebar: #1e2939;
+    --text-color: #000;
+    --text-color_description: #595959;
+    --date-color: #a8a8a8;
+    --text-orange: #fb6d3a;
 }
 body {
     font-family: var(--main-font);
@@ -40,4 +44,114 @@ picture {
     background-color: var(--bkg-sidebar);
     width: 230px;
     /* padding: 40px 0; */
+}
+.profession{
+font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+.name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: var(--text-color);
+    margin-bottom: 25px;
+}
+.description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color_description);
+    /* width: 400px;
+    height: 120px; */
+    margin-bottom: 40px;
+    /* margin-right: 340px; */
+}
+.projects {
+    padding: 0 0 0 0px;
+    margin-bottom: 50px;
+}
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    padding: 0 0 0 0;
+}
+.projectslist{
+padding: 0 0 0 17px;
+}
+.projects-item{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color);
+}
+.myproject-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color_description);
+    margin-left: 5px;
+}
+.myproject-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color_description);
+}
+.brkt{
+font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color);
+}
+.companyposition{
+    margin-bottom: 15px;
+}
+.occupation{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.orangetext{
+color: var(--text-orange);
+}
+.date{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--date-color);
+    margin-bottom: 10px;
+}
+.vertical{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--text-color);
+}
+.workduties{
+    padding-left: 18px;
+}
+.dutytype{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 100%;
+    color: var(--text-color_description);
 }

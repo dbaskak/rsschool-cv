@@ -77,7 +77,40 @@
                     </ul>
                 </div>
             </section>
+            <!-- education -->
+            <section class="education">
+                <h3 class="title">Education</h3>
+                <h4 class="orangetext">Self-Studiyng</h4>
+                <h5>Student</h5>
+                <p class="date">
+                    Whole Life Long
+                    <span class="vertical">|</span> World
+                </p>
+            </section>
+            <section class="education">
+                <h3 class="title">Code</h3>
+                <h4 class="orangetext">Code Example</h4>
+                <div class="code">
+                    <pre>
+                        <code>
+                const galleryElem = document.querySelector('#gallery')
+                const image = images.reduce((string, element)
+                    =&gt; string + &#x60; &lt;li&gt; &lt;img
+                        src=&quot;${element.url}&quot;
+                        alt=&quot;${element.alt}&quot;
+                        width=&quot;250&quot;
+                        height=&quot;150&quot;
+                    /&gt; &lt;/li&gt; &#x60;, '');
+                galleryElem.insertAdjacentHTML('afterbegin',
+                image)
+                        </code>
+                    </pre>
+                </div>
+            </section>
             <aside class="sidebar">
+                <div>
+                    <img class="picture" src="photo.jpg" alt="Baskakov Dmitriy" />
+                </div>
 
             </aside>
         </div>

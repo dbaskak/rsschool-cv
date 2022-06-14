@@ -7,6 +7,8 @@
     --text-color_description: #595959;
     --date-color: #a8a8a8;
     --text-orange: #fb6d3a;
+    --bkg-code: #fdfdfd;
+    --bkg-sidebar: #1e2939;
 }
 body {
     font-family: var(--main-font);
@@ -154,4 +156,18 @@ color: var(--text-orange);
     line-height: 24px;
     max-width: 100%;
     color: var(--text-color_description);
+}
+.code{
+    padding: 10px;
+    background-color: var(--bkg-code);
+    border-radius: 1%;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.sidebar {
+    background: var(--bkg-sidebar);
+    width: 730px;
+    /* padding: 40px 0; */
+}
+.picture {
+    max-width: 310px;
 }

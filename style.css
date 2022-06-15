@@ -1,5 +1,5 @@
 :root{
-    --main-font: font-family: "Montserrat", sans-serif;
+    --main-font: "Montserrat", sans-serif;
     --bkg-color: #f5f7fa;
     --bkg-all: #fff;
     --bkg-sidebar: #1e2939;
@@ -22,37 +22,38 @@ p {
     padding: 0;
 }
 html {
-  scroll-behavior: smooth;
-}
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+    scroll-behavior: smooth;
 }
 picture {
-    display: block;
     max-width: 100%;
     height: auto;
 }
-.all {
-    display: flex;
-    flex-direction: row-reverse;
+.container {
     background-color: var(--bkg-all);
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    width: 1200px;
 }
 .text {
     color: var(--bkg-all);
 }
+.inner-block{
+    display: flex;
+    flex-direction: row-reverse;
+    /* width: 100%; */
+}
 .main {
     padding: 10px;
+    /* width: 100%; */
 }
+.me{
+width: 100%;}
 .sidebar {
     background-color: var(--bkg-sidebar);
-    min-width: 30%;
-    padding: 40px 0;
+    /* padding: 10px; */
+    min-width: 25%;
 }
 .profession{
-font-style: normal;
+    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
@@ -73,12 +74,13 @@ font-style: normal;
     font-size: 14px;
     line-height: 24px;
     color: var(--text-color_description);
-    /* width: 400px;
-    height: 120px; */
+    width: 90%;
+    /* height: 120px; */
     margin-bottom: 40px;
     /* margin-right: 340px; */
 }
 .projects {
+    display: block;
     padding: 0 0 0 0px;
     margin-bottom: 50px;
 }
@@ -91,7 +93,7 @@ font-style: normal;
     padding: 0 0 0 0;
 }
 .projectslist{
-padding: 0 0 0 17px;
+    padding: 0 0 0 17px;
 }
 .projects-item{
     font-style: normal;
@@ -116,7 +118,7 @@ padding: 0 0 0 17px;
     color: var(--text-color_description);
 }
 .brkt{
-font-style: normal;
+    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
@@ -133,7 +135,7 @@ font-style: normal;
     margin-bottom: 10px;
 }
 .orangetext{
-color: var(--text-orange);
+    color: var(--text-orange);
 }
 .date{
     font-style: normal;
@@ -158,11 +160,12 @@ color: var(--text-orange);
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    max-width: 100%;
+    max-width: 70%;
     color: var(--text-color_description);
 }
 .code{
     padding: 10px;
+    /* max-width: 55%; */
     background-color: var(--bkg-code);
     border-radius: 1%;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -201,7 +204,7 @@ color: var(--text-orange);
 }
 .skill {
     color: var(--text-orange);
-;
+    ;
 }
 .footer,
 .header {
@@ -225,4 +228,8 @@ color: var(--text-orange);
 }
 .nav-list{
     list-style: none;
+}
+.img{
+    padding: 0;
+    width: 100%;
 }

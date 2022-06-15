@@ -1,12 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#tech" class="nav-link">Tech skills</a></li>
+                    <li class="nav-item"><a href="#soft" class="nav-link">Soft skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">My Projects</a></li>
+                    <li class="nav-item"><a href="#exp" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#edu" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#link" class="nav-link">RSS Link</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="inner-block">
+            <!-- general information -->
+            <div class="main">
+                <!--    main container    -->
+                <section class="me">
+                    <!-- occupation|education -->
+                    <!--    about me    -->
+                    <h2 class="profession">Stage#0 Student</h2>
+                    <h1 class="name" id="about">Baskakov Dmitriy</h1>
+                    <p class="description">
+                        Born long-long times ago in a country far far away... A
+                        long time ago in a country far away from here I lived
+                        and didn't even know about the existence of such fierce
+                        witchcraft as HTML, CSS and JS... I graduated from a
+                        technical university with a degree in economics and
+                        while working in the electrical energy sector I decided
+                        to try my hand in IT. Tried it and got addicted...
+                    </p>
+                </section>
+                <!-- my projects -->
+                <section class="projects" id="projects">
+                    <h3 class="title">My Projects</h3>
+                    <ol class="projectslist">
+                        <li class="projects-item">
+                            <span class="myproject-text">
+                                <a class="myproject-link" href="#"></a>
+                                ...........
+                                <span class="brkt">[</span>
+                                HTML5, CSS3, JS
+                                <span class="brkt">]</span>
+                            </span>
+                        </li>
+                        <li class="projects-item">
+                            <span class="myproject-text">
+                                <a class="myproject-link" href="#"></a>
+                                ...........
+                                <span class="brkt">[</span>
+                                HTML5, CSS3, JS
+                                <span class="brkt">]</span>
+                            </span>
+                        </li>
+                    </ol>
+                </section>
+                <!-- my work experience -->
+                <!-- company -->
+                <section class="work">
+                    <div class="companyposition">
+                        <h3 class="title" id="exp">Experience</h3>
+                        <h4 class="occupation">
+                            RSSchool Stage#0
+                            <span class="orangetext">Student</span>
+                        </h4>
+                        <p class="date">
+                            May 2022 - up to now 
+                            <span class="vertical">|</span> Ukraine
+                        </p>
+                        <ul class="workduties">
+                            <li class="dutytype">HTML</li>
+                            <li class="dutytype">CSS</li>
+                            <li class="dutytype">GitHub</li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- education -->
+                <section class="education">
+                    <h3 class="title" id="edu">Education</h3>
+                    <h4 class="orangetext">Self-Studiyng</h4>
+                    <h3>Student</h3>
+                    <p class="date">
+                        Whole Life Long
+                        <span class="vertical">|</span> World
+                    </p>
+                </section>
+                <section class="education">
+                    <h3 class="title">Code</h3>
+                    <h4 class="orangetext">Code Example</h4>
+                    <div class="code" id="code">
+                        <pre>
+                        <code>
+            const galleryElem = document.querySelector('#gallery')
+            const image = images.reduce((string, element)
+                =&gt; string + &#x60; &lt;li&gt; &lt;img
+                    src=&quot;${element.url}&quot;
+                    alt=&quot;${element.alt}&quot;
+                    width=&quot;250&quot;
+                    height=&quot;150&quot;
+                    /&gt; &lt;/li&gt; &#x60;, '');
+            galleryElem.insertAdjacentHTML('afterbegin',image)
+                        </code>
+                    </pre>
+                    </div>
+                </section>
+            </div>
+            <aside class="sidebar">
+                <div>
+                    <img class="img" src="photo.jpg" alt="Baskakov Dmitriy" />
+                </div>
+                <div class="sidebar__inside">
+                    <!-- contacts -->
+                    <section class="contacts" id="contacts">
+                        <h3 class="sbcontacts">Contacts</h3>
+                        <div>
+                            <span class="C">C:</span>
+                            <a class="tel" href="tel:+380990283506">+38 099 028 3506</a>
+                        </div>
+                        <div>
+                            <span class="E">E:</span>
+                            <a class="mail" href="mailto:disblis@gmail.com">dbaskak@gmail.com</a>
+                        </div>
+                    </section>
+                    <div class="skills">
+                        <!-- tech skills -->
+                        <section class="techskills" id="tech">
+                            <h3 class="sbtech">Tech skills</h3>
+                            <ul class="skills-list">
+                                <li class="skill">
+                                    <span class="text">HTML5</span>
+                                </li>
+                                <li class="skill">
+                                    <span class="text">CSS3</span>
+                                </li>
+                                <li class="skill">
+                                    <span class="text">GITHUB</span>
+                                </li>
+                            </ul>
+                        </section>
+                        <!-- soft skills -->
+                        <section class="softskills" id="soft">
+                            <h3 class="sbsoft">Soft skills</h3>
+                            <ul class="skills-list">
+                                <li class="skill">
+                                    <span class="text">Scrum</span>
+                                </li>
+                                <li class="skill">
+                                    <span class="text">Agile</span>
+                                </li>
+                                <li class="skill">
+                                    <span class="text">Teamwork</span>
+                                </li>
+                                <li class="skill">
+                                    <span class="text">English Skill - B1</span>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="footer" id="link">
+            <div>
+                <a href="https://rs.school/js-stage0/" class="nav-link">
+                    RSSchool
+                </a>
+            </div>
+
+        </footer>
+    </div>
 
 </body>
+
 </html>
